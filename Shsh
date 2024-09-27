@@ -1,0 +1,49 @@
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/X2ZnerLountist/Zee-Hub/main/Ui/Ui%20Mobile%20Zee%20Hub.lua"))()
+
+local main = Library.Zee({Title = "Zee Hub [Mobile/PC]                  YouTube: zKuzy",
+    Logo = 11904908797,
+    LogoOpen = 11904908797,
+    Logo = 12103905026,
+    LogoOpen = 12103905026,
+})
+
+local Tab1 = main.Tab({Title = "Main [เมนูหลัก]",})
+
+Tab1.Label({Title = "Auto Farm Level [ออโต้ฟาร์มเลเวล]"})
+
+Tab1.Toggle({Title = "Start Auto Farm | เริ่มออโต้ฟาร์ม",
+    Default = false,
+    callback = function(value)
+        value = value
+    end,
+})
+
+
+Tab1.Button({
+	Title = "stop Teleport | หยุดวาร์ป",
+	callback = function(value)
+		value = value
+	end,
+})
+
+Tab1.Dropdown({
+	Title = "Select Raids",
+	Item = {"Flame","Ice","Quake","Light","Dark","String","Rumble","Magma","Human: Buddha","Sand","Bird: Phoenix","Dough"},
+	callback = function(value)
+		value = value
+	end,
+})
+
+Tab1.Slider({
+    Title = "Select Value Add Point",
+    Min = 0,
+    Max = 9,
+    Defualt = 3,
+    Dec = false,
+    callback = function(v)
+    v = v
+    end,
+})
+
+รักเหมียวมากๆนะ<3
